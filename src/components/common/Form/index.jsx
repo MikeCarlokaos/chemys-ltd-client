@@ -72,7 +72,8 @@ const Form = () => {
         setIsSubmitting(true);
 
         const response = await axios.post(
-          "https://chemyslimiteddemo.onrender.com//send",
+          "https://chemyslimiteddemo.onrender.com/send",
+          // "http://localhost:3001/send",
           mailerState
         );
 
